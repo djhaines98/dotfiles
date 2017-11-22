@@ -1,0 +1,9 @@
+Host remote_access
+  HostName login.engin.umich.edu
+  User djhaines
+  Compression yes
+
+Host djhaines98
+  User git
+  HostName github.com
+  IdentityFile ~/.ssh/djhaines98@gmail.com
